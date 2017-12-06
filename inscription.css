@@ -1,0 +1,28 @@
+body{
+background-image:url("box.jpg");
+background-repeat: no-reeat;
+font-family: Bebas Neue;
+
+@media screen and (max-width: 500px){
+body {
+  background-color: pink;
+}
+}
+
+
+}
+.texte {
+  display: flex;
+  justify-content: center;
+
+
+}
+h1 {
+  display: flex;
+  justify-content: center;
+
+}
+img{
+width: 100%;
+
+}

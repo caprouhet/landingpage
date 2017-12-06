@@ -1,3 +1,43 @@
-html {background-color: #F9C5D6;
+body {background-color: #F9C5D6;
     font-family: monospace;
-  }
+}
+.war {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img1{
+/*display: inline-block;*/
+  width: 300px;
+  /*display: flex;
+  flex-direction: row;
+  align-items: flex-start;*/
+}
+.texte{
+  /*display: inline-block;*/
+  width: 300px;
+  /*display: flex;
+  flex-direction: row;
+  align-items: flex-end;*/
+}
+.war2 {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+}
+.netflix {
+display: flex;
+justify-content: space-around;
+
+}
+.netflix2 {
+display: flex;
+justify-content: space-around;
+
+}
+.titre {
+display: flex;
+justify-content: center;
+}
